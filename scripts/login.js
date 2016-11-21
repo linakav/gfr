@@ -13,7 +13,6 @@
             dataType: "json",
             success: function (data) {
                 if (data) {
-                    //document.cookie = "authenticated=authenticated; path=/";
                     window.location.replace("/index.php");
                 }
             }

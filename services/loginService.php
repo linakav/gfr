@@ -7,8 +7,8 @@ $username = $data["username"];
 $password = $data["password"];
 
 if ($username == "gfrUser" && $password == "uWsUcWyh") {
-    echo 'true';
     setcookie('authenticated', 'authenticated', 0, '/', FALSE, FALSE);
+    echo 'true';
 }
  else {
     echo 'false';
