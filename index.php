@@ -1,4 +1,3 @@
-    
 <?php include 'header.php'; ?>
 
 <div class="main-slider owl-carousel">
