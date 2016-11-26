@@ -3,13 +3,11 @@
 <div class="main-slider owl-carousel">
         <div class="slide-item" style="background: url(/images/banner1.jpg)"></div>
         <div class="slide-item" style="background: url(/images/banner2.jpg)"></div>
-        <div class="slide-item" style="background: url(/images/banner3.jpg)"></div>
-        <div class="slide-item" style="background: url(/images/banner4.jpg)"></div>
     </div>
 
     <div class="center-wrapper">
         <div class="seo-wrapper">
-            <h1 class="seo-title">GFR Ανταλλακτικα Αυτοκινήτων</h1>
+            <h1 class="seo-title">GFR Ανταλλακτικά Αυτοκινήτων</h1>
             <p class="seo-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -80,7 +78,7 @@
                 <li class="brand-slider-item">
                     <img src="/images/brands/huco.png" alt="HUCO" /></li>
                 <li class="brand-slider-item">
-                    <img src="/images/brands/ir.jpg" alt="IR" /></li>
+                    <img src="/images/brands/ir.gif" alt="IR" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/itn.png" alt="ITN" /></li>
                 <li class="brand-slider-item">
@@ -99,6 +97,8 @@
                     <img src="/images/brands/mannex.jpg" alt="MANNEX" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/mann-filter.jpg" alt="MANN FILTER" /></li>
+                <li class="brand-slider-item">
+                    <img src="/images/brands/matec.jpg" alt="MATEC" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/metalcaucho.png" alt="METALCAUCHO" /></li>
                 <li class="brand-slider-item">
@@ -136,6 +136,8 @@
                 <li class="brand-slider-item">
                     <img src="/images/brands/victor-reinz.png" alt="VICTOR-REINZ" /></li>
                 <li class="brand-slider-item">
+                    <img src="/images/brands/wistrol.png" alt="WISTROL" /></li>
+                <li class="brand-slider-item">
                     <img src="/images/brands/zetec.jpg" alt="ZETEC" /></li>
             </ul>
         </div>
@@ -165,7 +167,7 @@
                     <p>
                         Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
                     </p>
-                    <a href="http://www.hankooktire.com/" target="_blank">View more</a>
+                    <a href="#" target="_blank">View more</a>
                 </figcaption>
             </figure>
             <figure class="effect-sarah">
@@ -201,7 +203,7 @@
                     <p>
                         Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
                     </p>
-                    <a href="#" target="_blank">View more</a>
+                    <a href="http://www.irecambio.com/" target="_blank">View more</a>
                 </figcaption>
             </figure>
         </div>

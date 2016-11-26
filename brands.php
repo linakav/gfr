@@ -45,6 +45,10 @@
                         <img src="/images/brands/remsa.jpg" alt="REMSA" />
                         <span class="brand-title">REMSA</span>
                     </li>
+                    <li class="brand">
+                        <img src="/images/brands/matec.jpg" alt="MATEC" />
+                        <span class="brand-title">MATEC</span>
+                    </li>
                 </ul>
             </li>
             <li class="accordion-item">
@@ -156,7 +160,7 @@
                         <span class="brand-title">RUVILLE</span>
                     </li>
                     <li class="brand">
-                        <img src="/images/brands/ir.jpg" alt="IR" />
+                        <img src="/images/brands/ir.gif" alt="IR" />
                         <span class="brand-title">IR</span>
                     </li>
                     <li class="brand">
@@ -218,6 +222,10 @@
                     <li class="brand">
                         <img src="/images/brands/castrol.png" alt="CASTROL" />
                         <span class="brand-title">CASTROL</span>
+                    </li>
+                    <li class="brand">
+                        <img src="/images/brands/wistrol.png" alt="WISTROL" />
+                        <span class="brand-title">WISTROL</span>
                     </li>
                 </ul>
             </li>
@@ -472,10 +480,6 @@
                     <li class="brand">
                         <img src="/images/brands/payen.png" alt="PAYEN" />
                         <span class="brand-title">PAYEN</span>
-                    </li>
-                    <li class="brand">
-                        <img src="/images/brands/zetec.jpg" alt="ZETEC" />
-                        <span class="brand-title">ZETEC</span>
                     </li>
                     <li class="brand">
                         <img src="/images/brands/victor-reinz.png" alt="VICTOR-REINZ" />

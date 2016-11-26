@@ -39,7 +39,7 @@ if(!isset($_COOKIE['authenticated'])) {
     <link href="/css/skeleton.css" rel="stylesheet"/>
     <link href="/css/style.css?v=1" rel="stylesheet"/>
     <link href="/css/responsive.css" rel="stylesheet"/>
-    <title>GFR Ανταλλακτικα Αυτοκινήτων</title>
+    <title>GFR Ανταλλακτικά Αυτοκινήτων</title>
 </head>
 <body>
     <div class="top-info-wrapper">
