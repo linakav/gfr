@@ -66,25 +66,26 @@
     </footer>
 
     <div ID="overlay" class="overlay overlay-slidedown
-<?php if(!isset($_COOKIE['overlay'])) {
-    echo "open";
-}?>
-        " runat="server" onscroll="toggleOverlay()">
+        <?php if(!isset($_COOKIE['overlay'])) {
+            echo "open";
+        }?>">
         <button class="overlay-close icon-cross2" type="button"></button>
         <div class="wrapper">
-            <img class="logo" src="/images/logo-long.png" />
-            <div class="info-wrapper">
-                <div class="email-wrapper">
-                    <span class="icon icon-envelope-o"></span>
-                    <a class="email label" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
-                </div>
-                <div class="mobile-wrapper">
-                    <span class="icon icon-mobile2"></span>
-                    <span class="label">693 68 50 779</span>
-                </div>
-                <div class="phone-wrapper">
-                    <span class="icon icon-phone"></span>
-                    <span class="label">211 40 30 889</span>
+            <div class="inner-wrapper">
+                <img class="logo" src="/images/logo-long.png" />
+                <div class="info-wrapper">
+                    <div class="email-wrapper">
+                        <span class="icon icon-envelope-o"></span>
+                        <a class="email label" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
+                    </div>
+                    <div class="mobile-wrapper">
+                        <span class="icon icon-mobile2"></span>
+                        <span class="label">693 68 50 779</span>
+                    </div>
+                    <div class="phone-wrapper">
+                        <span class="icon icon-phone"></span>
+                        <span class="label">211 40 30 889</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -125,6 +126,6 @@
     <script src="/owl-carousel/owl.carousel.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyA4EX1ua5aAy4IrUeGT1TJKuEfw82sp2wM"></script>
     <script src="/scripts/crawler.js" type="text/javascript"></script>
-    <script src="/scripts/script.js?v=17" type="text/javascript"></script>
+    <script src="/scripts/script.js?v=19" type="text/javascript"></script>
 </body>
 </html>

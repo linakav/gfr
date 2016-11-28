@@ -76,6 +76,8 @@
                 <li class="brand-slider-item">
                     <img src="/images/brands/hitachi.png" alt="HITACHI" /></li>
                 <li class="brand-slider-item">
+                    <img src="/images/brands/hoffer.png" alt="HOFFER" /></li>
+                <li class="brand-slider-item">
                     <img src="/images/brands/huco.png" alt="HUCO" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/ir.gif" alt="IR" /></li>
@@ -116,9 +118,13 @@
                 <li class="brand-slider-item">
                     <img src="/images/brands/nrf.png" alt="NRF" /></li>
                 <li class="brand-slider-item">
+                    <img src="/images/brands/nrg.jpg" alt="NRG" /></li>
+                <li class="brand-slider-item">
                     <img src="/images/brands/payen.png" alt="PAYEN" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/pemco.jpg" alt="PEMCO" /></li>
+                <li class="brand-slider-item">
+                    <img src="/images/brands/pierburg.png" alt="PIERBURG" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/remsa.jpg" alt="REMSA" /></li>
                 <li class="brand-slider-item">
@@ -128,11 +134,15 @@
                 <li class="brand-slider-item">
                     <img src="/images/brands/sct.jpg" alt="SCT" /></li>
                 <li class="brand-slider-item">
+                    <img src="/images/brands/sidat.png" alt="SIDAT" /></li>
+                <li class="brand-slider-item">
                     <img src="/images/brands/skf.png" alt="SKF" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/textar.png" alt="TEXTAR" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/valeo.png" alt="VALEO" /></li>
+                <li class="brand-slider-item">
+                    <img src="/images/brands/vdo.png" alt="VDO" /></li>
                 <li class="brand-slider-item">
                     <img src="/images/brands/victor-reinz.png" alt="VICTOR-REINZ" /></li>
                 <li class="brand-slider-item">
@@ -164,17 +174,13 @@
                     <div class="clearfix">
                         <h2>HANKOOK</h2>
                     </div>
-                    <p>
-                        Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
-                    </p>
-                    <a href="#" target="_blank">View more</a>
                 </figcaption>
             </figure>
             <figure class="effect-sarah">
                 <img src="/images/mofin.jpg" alt="MOFIN" />
                 <figcaption>
                     <div class="clearfix">
-                        <h2>MOFIN</span></h2>
+                        <h2>MOFIN</h2>
                     </div>
                     <p>
                         Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
@@ -195,7 +201,7 @@
                 </figcaption>
             </figure>
             <figure class="effect-sarah">
-                <img src="/images/smallbanner4.jpg" alt="IR" />
+                <img src="/images/ir.jpg" alt="IR" />
                 <figcaption>
                     <div class="clearfix">
                         <h2>IR</h2>
