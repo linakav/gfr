@@ -531,7 +531,6 @@ $(document).ready(function() {
     marqueeInit({
         uniqueid: 'brand-slider',
         style: {
-
         },
         inc: 6, //speed - pixel increment for each iteration of this marquee's movement
         mouse: false, //mouseover behavior ('pause' 'cursor driven' or false)
