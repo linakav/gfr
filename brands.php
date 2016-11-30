@@ -169,6 +169,9 @@
 				</li><li class="close">Κλείσιμο</li>
 			</ul>
 		</li>
+        </ul>
+        
+	<ul class="grid clearfix">
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
@@ -325,6 +328,9 @@
 				</li><li class="close">Κλείσιμο</li>
 			</ul>
 		</li>
+        </ul>
+        
+	<ul class="grid clearfix">
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
@@ -457,6 +463,9 @@
 				</li><li class="close">Κλείσιμο</li>
 			</ul>
 		</li>
+        </ul>
+        
+	<ul class="grid clearfix">
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
@@ -605,6 +614,9 @@
 				</li><li class="close">Κλείσιμο</li>
 			</ul>
 		</li>
+        </ul>
+        
+	<ul class="grid clearfix">
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">

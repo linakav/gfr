@@ -126,6 +126,6 @@
     <script src="/owl-carousel/owl.carousel.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyA4EX1ua5aAy4IrUeGT1TJKuEfw82sp2wM"></script>
     <script src="/scripts/crawler.js" type="text/javascript"></script>
-    <script src="/scripts/script.js?v=19" type="text/javascript"></script>
+    <script src="/scripts/script.js?v=48" type="text/javascript"></script>
 </body>
 </html>

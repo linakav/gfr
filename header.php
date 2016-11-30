@@ -37,7 +37,7 @@ if(!isset($_COOKIE['authenticated'])) {
     <link rel="stylesheet" href="owl-carousel/owl.theme.css"/>
 
     <link href="/css/skeleton.css" rel="stylesheet"/>
-    <link href="/css/style.css?v=2" rel="stylesheet"/>
+    <link href="/css/style.css?v=37" rel="stylesheet"/>
     <link href="/css/responsive.css" rel="stylesheet"/>
     <title>GFR Ανταλλακτικά Αυτοκινήτων</title>
 </head>
