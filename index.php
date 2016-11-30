@@ -165,9 +165,9 @@
                     <h2>JAPANPARTS</h2>
                 </div>
                 <p>
-                    Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
+                    Δείτε Περισσότερα
                 </p>
-                <a href="http://www.japanparts.it/" target="_blank">View more</a>
+                <a class="link" href="http://www.japanparts.it/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
             </figcaption>
         </figure>
         <div>
@@ -178,7 +178,7 @@
                         <h2>HANKOOK</h2>
                     </div>
                     <p>
-                        Κάντε κλικ εδώ
+                        Δείτε Περισσότερα
                     </p>
                 </figcaption>
             </figure>
@@ -200,9 +200,9 @@
                     <h2>MOFIN</h2>
                 </div>
                 <p>
-                    Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
+                    Δείτε Περισσότερα
                 </p>
-                <a href="http://www.mofin-oil.com/" target="_blank">View more</a>
+                <a class="link" href="http://www.mofin-oil.com/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
             </figcaption>
         </figure>
         <div>
@@ -213,9 +213,8 @@
                         <h2>ITN</h2>
                     </div>
                     <p>
-                        Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
+                        Δείτε Περισσότερα
                     </p>
-                    <a href="http://www.itn-parts.eu/en/index.php" target="_blank">View more</a>
                 </figcaption>
             </figure>
             <div ID="overlay" class="overlay overlay-slidedown">
@@ -224,6 +223,7 @@
                     <div class="inner-wrapper">
                         <span class="title">Φίλτρα ITN</span>
                         <img class="img" src="/images/filtra.jpg" />
+                    <a class="link" href="http://www.itn-parts.eu/en/index.php" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
                     </div>
                 </div>
             </div>
@@ -236,9 +236,8 @@
                         <h2>IR</h2>
                     </div>
                     <p>
-                        Επισκεφθείτε την επίσημη σελίδα του κατασκευαστή
+                        Δείτε Περισσότερα
                     </p>
-                    <a href="http://www.irecambio.com/" target="_blank">View more</a>
                 </figcaption>
             </figure>
             <div ID="overlay" class="overlay overlay-slidedown">
@@ -247,6 +246,7 @@
                     <div class="inner-wrapper">
                         <span class="title">Μπροστινό Σύστημα IR</span>
                         <img class="img" src="/images/empros-sistima.jpg" />
+                        <a class="link" href="http://www.irecambio.com/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
                     </div>
                 </div>
             </div>

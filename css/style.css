@@ -423,6 +423,15 @@ header.sticky {
     max-width: 500px;
 }
 
+.overlay .link {
+    padding: 10px;
+    display: block;
+}
+
+.overlay .link:hover {
+    color: #0E0E0E;
+}
+
 .overlay .title {
     display: inline-block;
     border-bottom: 3px solid;
