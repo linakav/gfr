@@ -223,7 +223,6 @@
                     <div class="inner-wrapper">
                         <span class="title">Φίλτρα ITN</span>
                         <img class="img" src="/images/filtra.jpg" />
-                    <a class="link" href="http://www.itn-parts.eu/en/index.php" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
                     </div>
                 </div>
             </div>
@@ -246,7 +245,6 @@
                     <div class="inner-wrapper">
                         <span class="title">Μπροστινό Σύστημα IR</span>
                         <img class="img" src="/images/empros-sistima.jpg" />
-                        <a class="link" href="http://www.irecambio.com/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
                     </div>
                 </div>
             </div>
