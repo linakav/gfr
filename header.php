@@ -40,6 +40,7 @@ if(!isset($_COOKIE['authenticated'])) {
     <link href="/css/style.css?v=37" rel="stylesheet"/>
     <link href="/css/responsive.css" rel="stylesheet"/>
     <title>GFR Ανταλλακτικά Αυτοκινήτων</title>
+    <meta name="description" content="Η GFR PARTS & SPARES, εμπορεύεται ανταλλακτικά αυτοκινήτου παντός τύπου.">
 </head>
 <body>
     <div class="top-info-wrapper">

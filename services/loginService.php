@@ -2,7 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
-$data =  json_decode($HTTP_RAW_POST_DATA,true);
+$data =  json_decode(file_get_contents('php://input'),true);
 $username = $data["username"];
 $password = $data["password"];
 

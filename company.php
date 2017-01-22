@@ -4,12 +4,17 @@
         <div class="document-wrapper clearfix">
             <h1>Η Εταιρία μας</h1>
             <img src="/images/smallbanner4.jpg" alt="img01">
-            <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-            <ol>
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                <li>Aliquam tincidunt mauris eu risus.</li>
-            </ol>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
+            <p>Η εταιρεία <strong>ΓΕΩΡΓΙΟΣ ΜΑΥΡΙΑΝΟΣ & ΣΙΑ ΕΕ</strong> , με διακριτικό τίτλο: <strong>GFR PARTS & SPARES</strong>, ιδρύθηκε το 2016 με κύριο αντικείμενο την εμπορία ανταλλακτικών αυτοκινήτου παντός τύπου, με χρήση της εγχώριας αγοράς και εισαγωγών.</p><p>
+Η εταιρεία μας στελεχώνεται από εξειδικευμένο προσωπικό και στεγάζεται στην Ελευσίνα, με συνεργαζόμενα καταστήματα στην Λυκόβρυση και στα Πατήσια Αττικής.</p><p>
+Στόχος μας η ποιοτική και γρήγορη εξυπηρέτηση των πελατών μας , με προϊόντα που συνδυάζουν την καλύτερη ποιότητα στην καλύτερη τιμή.</p><p>
+Η ΠΡΟΣΩΠΙΚΗ ΜΑΣ ΚΟΥΛΤΟΥΡΑ :
+            <ul><li>Αξιοπιστία & Ειλικρίνεια</li>
+<li>Σεβασμός & Εκτίμηση</li>
+<li>Υπευθυνότητα</li>
+<li>ΕΜΠΟΡΙΟ ΜΕ ΗΘΟΣ</li>
+<li>Ακεραιότητα</li>
+<li>Εμπιστοσύνη</li>
+<li>Συνέπεια</li><ul></p>
         </div>
     </div>
 

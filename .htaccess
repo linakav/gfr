@@ -1,0 +1,10 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^gfr\.gr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gfr\.gr$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/www\.gfr\.gr\/underConstruction\.php" [R=302,L]
+

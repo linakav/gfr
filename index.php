@@ -9,15 +9,9 @@
     <div class="seo-wrapper">
         <h1 class="seo-title">GFR Ανταλλακτικά Αυτοκινήτων</h1>
         <p class="seo-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Η εταιρεία ΓΕΩΡΓΙΟΣ ΜΑΥΡΙΑΝΟΣ & ΣΙΑ ΕΕ , με διακριτικό τίτλο: GFR PARTS & SPARES, ιδρύθηκε το 2016 με κύριο αντικείμενο την εμπορία ανταλλακτικών αυτοκινήτου παντός τύπου, με χρήση της εγχώριας αγοράς και εισαγωγών.
         </p>
     </div>
-
     <div class="brand-slider-wrapper">
         <h2 class="brand-slider-title-wrapper">
             <a href="/brands.php" class="brand-slider-title">Οι Μάρκες μας</a>
