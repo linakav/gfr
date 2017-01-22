@@ -87,6 +87,7 @@ if(!isset($_COOKIE['authenticated'])) {
                             </li>
                         </ul>
                     </nav>
+                    <div class="lang-wrapper"><span class="selected" data-lang="el">ΕΛ</span> | <span data-lang="en">EN</span></div>
                 </div>
             </div>
         </header>

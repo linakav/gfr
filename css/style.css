@@ -286,6 +286,23 @@ header.sticky {
     background: #ED1D24;
 }
 
+.lang-wrapper {
+    color: #ffffff;
+}
+
+.lang-wrapper span {
+    cursor: pointer;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.lang-wrapper span:hover {
+    color: #ed1d24;
+}
+
 .main-slider {
     padding-bottom: 30px;
 }

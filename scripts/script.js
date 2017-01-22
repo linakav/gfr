@@ -712,4 +712,11 @@ $(document).ready(function () {
         $('div.overlay').slideUp();
         document.cookie = "overlay=opened; path=/";
     }
+    
+    
+    //Language Selector
+    $(".lang-wrapper span").click(function (){
+        window.location = window.location.origin + window.location.pathname + "?lang=" + $(this).data( "lang");
+        
+    })
 });
