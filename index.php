@@ -1,4 +1,5 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+$lang = $_GET["lang"];?>
 
 <div class="main-slider owl-carousel">
     <div class="slide-item" style="background: url(/images/banner1.jpg)"></div>
@@ -7,14 +8,29 @@
 
 <div class="center-wrapper">
     <div class="seo-wrapper">
-        <h1 class="seo-title">GFR Ανταλλακτικά Αυτοκινήτων</h1>
-        <p class="seo-text">
-            Η εταιρεία ΓΕΩΡΓΙΟΣ ΜΑΥΡΙΑΝΟΣ & ΣΙΑ ΕΕ , με διακριτικό τίτλο: GFR PARTS & SPARES, ιδρύθηκε το 2016 με κύριο αντικείμενο την εμπορία ανταλλακτικών αυτοκινήτου παντός τύπου, με χρήση της εγχώριας αγοράς και εισαγωγών.
+        <h1 class="seo-title"><?php if ($lang == "en")
+                echo "GFR Car Parts";
+            else {
+                echo "GFR Ανταλλακτικά Αυτοκινήτων";
+            } ?></h1>
+        <p class="seo-text"><?php if ($lang == "en")
+                echo "GEORGE MAVRIANOS CO LP, with the distinctive title GFR PARTS & SPARES, was founded in 2016 dealing in car parts of all types, both domestic and imported.";
+            else {
+                echo "Η εταιρεία ΓΕΩΡΓΙΟΣ ΜΑΥΡΙΑΝΟΣ & ΣΙΑ ΕΕ , με διακριτικό τίτλο: GFR PARTS & SPARES, ιδρύθηκε το 2016 με κύριο αντικείμενο την εμπορία ανταλλακτικών αυτοκινήτου παντός τύπου, με χρήση της εγχώριας αγοράς και εισαγωγών.";
+            } ?>
         </p>
     </div>
     <div class="brand-slider-wrapper">
         <h2 class="brand-slider-title-wrapper">
-            <a href="/brands.php" class="brand-slider-title">Οι Μάρκες μας</a>
+            <a href="/brands.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>" class="brand-slider-title"><?php if ($lang == "en")
+                            echo "Our Brands";
+                        else {
+                            echo "Οι Μάρκες μας";
+                        } ?></a>
         </h2>
         <span class="icon-rewind"></span>
         <span class="icon-fast-forward"></span>
@@ -150,7 +166,11 @@
 </div>
 
 <div class="banner-wrapper">
-    <h2 class="banner-title">Οι Εταιρίες που Εισάγουμε</h2>
+    <h2 class="banner-title"><?php if ($lang == "en")
+                            echo "Imported Brands";
+                        else {
+                            echo "Οι Εταιρίες που Εισάγουμε";
+                        } ?></h2>
     <div class="grid clearfix">
         <figure class="effect-sarah">
             <img src="/images/japanparts.jpg" alt="JAPANPARTS" />
@@ -158,10 +178,16 @@
                 <div class="clearfix">
                     <h2>JAPANPARTS</h2>
                 </div>
-                <p>
-                    Δείτε Περισσότερα
-                </p>
-                <a class="link" href="http://www.japanparts.it/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
+                <p><?php if ($lang == "en")
+                            echo "Read More";
+                        else {
+                            echo "Δείτε Περισσότερα";
+                        } ?></p>
+                <a class="link" href="http://www.japanparts.it/" target="_blank"><?php if ($lang == "en")
+                            echo "Visit the official site of the brand";
+                        else {
+                            echo "Επισκευτείτε το επίσημο site του κατασκευαστή";
+                        } ?></a>
             </figcaption>
         </figure>
         <div>
@@ -171,16 +197,22 @@
                     <div class="clearfix">
                         <h2>HANKOOK</h2>
                     </div>
-                    <p>
-                        Δείτε Περισσότερα
-                    </p>
+                    <p><?php if ($lang == "en")
+                            echo "Read More";
+                        else {
+                            echo "Δείτε Περισσότερα";
+                        } ?></p>
                 </figcaption>
             </figure>
             <div ID="overlay" class="overlay overlay-slidedown">
                 <button class="overlay-close icon-cross2" type="button"></button>
                 <div class="wrapper">
                     <div class="inner-wrapper">
-                        <span class="title">Μπαταρίες Hankook</span>
+                        <span class="title"><?php if ($lang == "en")
+                            echo "Hankook Batteries";
+                        else {
+                            echo "Μπαταρίες Hankook";
+                        } ?></span>
                         <img class="img" src="/images/mpataries.jpg" />
                     </div>
                 </div>
@@ -193,10 +225,16 @@
                 <div class="clearfix">
                     <h2>MOFIN</h2>
                 </div>
-                <p>
-                    Δείτε Περισσότερα
-                </p>
-                <a class="link" href="http://www.mofin-oil.com/" target="_blank">Επισκευτείτε το επίσημο site του κατασκευαστή</a>
+                <p><?php if ($lang == "en")
+                            echo "Read More";
+                        else {
+                            echo "Δείτε Περισσότερα";
+                        } ?></p>
+                <a class="link" href="http://www.mofin-oil.com/" target="_blank"><?php if ($lang == "en")
+                            echo "Visit the official site of the brand";
+                        else {
+                            echo "Επισκευτείτε το επίσημο site του κατασκευαστή";
+                        } ?></a>
             </figcaption>
         </figure>
         <div>
@@ -206,16 +244,22 @@
                     <div class="clearfix">
                         <h2>ITN</h2>
                     </div>
-                    <p>
-                        Δείτε Περισσότερα
-                    </p>
+                    <p><?php if ($lang == "en")
+                            echo "Read More";
+                        else {
+                            echo "Δείτε Περισσότερα";
+                        } ?></p>
                 </figcaption>
             </figure>
             <div ID="overlay" class="overlay overlay-slidedown">
                 <button class="overlay-close icon-cross2" type="button"></button>
                 <div class="wrapper">
                     <div class="inner-wrapper">
-                        <span class="title">Φίλτρα ITN</span>
+                        <span class="title"><?php if ($lang == "en")
+                            echo "ITN Filters";
+                        else {
+                            echo "Φίλτρα ITN";
+                        } ?></span>
                         <img class="img" src="/images/filtra.jpg" />
                     </div>
                 </div>
@@ -228,16 +272,22 @@
                     <div class="clearfix">
                         <h2>IR</h2>
                     </div>
-                    <p>
-                        Δείτε Περισσότερα
-                    </p>
+                    <p><?php if ($lang == "en")
+                            echo "Read More";
+                        else {
+                            echo "Δείτε Περισσότερα";
+                        } ?></p>
                 </figcaption>
             </figure>
             <div ID="overlay" class="overlay overlay-slidedown">
                 <button class="overlay-close icon-cross2" type="button"></button>
                 <div class="wrapper">
                     <div class="inner-wrapper">
-                        <span class="title">Μπροστινό Σύστημα IR</span>
+                        <span class="title"><?php if ($lang == "en")
+                            echo "IR Front System";
+                        else {
+                            echo "Μπροστινό Σύστημα IR";
+                        } ?></span>
                         <img class="img" src="/images/empros-sistima.jpg" />
                     </div>
                 </div>

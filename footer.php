@@ -1,40 +1,87 @@
+<?php
 
+$lang = $_GET["lang"];
+?>
     <footer>
         <div class="center-wrapper clearfix">
             <nav class="footer-menu-wrapper">
-				<ul class="footer-menu">
-					<li runat="server" class="footer-menu-item">
-						<span class="icon icon-forward"></span>
-                                                <a href="/index.php">
-							ΑΡΧΙΚΗ
-						</a>
-					</li>
-					<li runat="server" class="footer-menu-item">
-						<span class="icon icon-forward"></span>
-						<a href="/company.php">
-							ΕΤΑΙΡΕΙΑ
-						</a>
-					</li>
-					<li runat="server" class="footer-menu-item">
-						<span class="icon icon-forward"></span>
-						<a href="/brands.php">
-							ΜΑΡΚΕΣ
-						</a>
-					</li>
-					<li runat="server" class="footer-menu-item">
-						<span class="icon icon-forward"></span>
-						<a href="/contact.php">
-							ΕΠΙΚΟΙΝΩΝΙΑ
-						</a>
-					</li>
+                <ul class="footer-menu">
+                    <li runat="server" class="footer-menu-item">
+                            <span class="icon icon-forward"></span>
+                            <a href="/index.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "HOME";
+                        else {
+                            echo "ΑΡΧΙΚΗ";
+                        } ?></a>
+                    </li>
+                    <li runat="server" class="footer-menu-item">
+                            <span class="icon icon-forward"></span>
+                            <a href="/company.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "COMPANY";
+                        else {
+                            echo "ΕΤΑΙΡΕΙΑ";
+                        } ?></a>
+                    </li>
+                    <li runat="server" class="footer-menu-item">
+                            <span class="icon icon-forward"></span>
+                            <a href="/brands.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "BRANDS";
+                        else {
+                            echo "ΜΑΡΚΕΣ";
+                        } ?></a>
+                    </li>
+                    <li runat="server" class="footer-menu-item">
+                            <span class="icon icon-forward"></span>
+                            <a href="/contact.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "CONTACT";
+                        else {
+                            echo "ΕΠΙΚΟΙΝΩΝΙΑ";
+                        } ?></a>
+                    </li>
                 </ul>
-			</nav>
+            </nav>
             <div class="contact-wrapper">
                 <div class="info-wrapper">
-                    <a href="/contact.php" class="title">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-                    <span class="address">Διγενή Ακρίτα 45, 19200 Ελευσίνα</span>
-                    <span class="phone">Τηλ.: 211 40 30 889</span>
-                    <span class="mobile">Κιν.: 693 68 50 779</span>
+                    <a href="/contact.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>" class="title"><?php if ($lang == "en")
+                            echo "CONTACT";
+                        else {
+                            echo "ΕΠΙΚΟΙΝΩΝΙΑ";
+                        } ?></a>
+                    <span class="address"><?php if ($lang == "en")
+                            echo "45 Digeni Akrita, 19200 Elefsina";
+                        else {
+                            echo "Διγενή Ακρίτα 45, 19200 Ελευσίνα";
+                        } ?></span>
+                    <span class="phone"><?php if ($lang == "en")
+                            echo "Phone";
+                        else {
+                            echo "Τηλ.";
+                        } ?>: 211 40 30 889</span>
+                    <span class="mobile"><?php if ($lang == "en")
+                            echo "Mobile";
+                        else {
+                            echo "Κιν.";
+                        } ?>: 693 68 50 779</span>
                     <a class="email" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
                 </div>
                 <div class="map-wrapper">

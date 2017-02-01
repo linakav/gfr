@@ -5,6 +5,7 @@ if(!isset($_COOKIE['authenticated'])) {
     die();
 }
 
+$lang = $_GET["lang"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,8 +40,16 @@ if(!isset($_COOKIE['authenticated'])) {
     <link href="/css/skeleton.css" rel="stylesheet"/>
     <link href="/css/style.css?v=37" rel="stylesheet"/>
     <link href="/css/responsive.css" rel="stylesheet"/>
-    <title>GFR Ανταλλακτικά Αυτοκινήτων</title>
-    <meta name="description" content="Η GFR PARTS & SPARES, εμπορεύεται ανταλλακτικά αυτοκινήτου παντός τύπου.">
+    <title><?php if ($lang == "en")
+                echo "GFR Car Parts";
+            else {
+                echo "GFR Ανταλλακτικά Αυτοκινήτων";
+            } ?></title>
+    <meta name="description" content="<?php if ($lang == "en")
+                echo "GFR PARTS & SPARES trades in car parts of all types";
+            else {
+                echo "Η GFR PARTS & SPARES εμπορεύεται ανταλλακτικά αυτοκινήτου παντός τύπου.";
+            } ?>">
 </head>
 <body>
     <div class="top-info-wrapper">
@@ -66,24 +75,60 @@ if(!isset($_COOKIE['authenticated'])) {
             <div class="center-wrapper">
                 <div class="header-wrapper ">
                     <div class="logo-wrapper">
-                        <a href="/index.php">
+                        <a href="/index.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>">
                             <img class="logo" src="/images/logo-long.png" />
                         </a>
                     </div>
                     <nav class="main-menu-wrapper">
                         <ul class="main-menu">
                             <li  class="main-menu-item">
-                                <a href="/index.php">
-                                <span class="icon icon-home3"></span>&nbsp;&nbsp;&nbsp;ΑΡΧΙΚΗ</a>
+                                <a href="/index.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>">
+                                <span class="icon icon-home3"></span>&nbsp;&nbsp;&nbsp;<?php if ($lang == "en")
+                            echo "HOME";
+                        else {
+                            echo "ΑΡΧΙΚΗ";
+                        } ?></a>
                             </li>
                             <li class="main-menu-item">
-                                <a href="/company.php">ΕΤΑΙΡΕΙΑ</a>
+                                <a href="/company.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "COMPANY";
+                        else {
+                            echo "ΕΤΑΙΡΕΙΑ";
+                        } ?></a>
                             </li>
                             <li class="main-menu-item">
-                                <a href="/brands.php">ΜΑΡΚΕΣ</a>
+                                <a href="/brands.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "BRANDS";
+                        else {
+                            echo "ΜΑΡΚΕΣ";
+                        } ?></a>
                             </li>
                             <li class="main-menu-item">
-                                <a href="/contact.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                                <a href="/contact.php<?php if ($lang == "en")
+                            echo "?lang=en";
+                        else {
+                            echo "?lang=el";
+                        } ?>"><?php if ($lang == "en")
+                            echo "CONTACT";
+                        else {
+                            echo "ΕΠΙΚΟΙΝΩΝΙΑ";
+                        } ?></a>
                             </li>
                         </ul>
                     </nav>
