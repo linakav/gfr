@@ -91,7 +91,11 @@ $lang = $_GET["lang"];
             <div class="newsletter-wrapper">
                 <div class="newsletter-text-wrapper">
                     <span class="icon icon-envelope-o"></span>
-                    <span class="newsletter-text">Γραφτείτε στο newsletter και λάβετε τα νέα μας στο email σας.</span>
+                    <span class="newsletter-text"><?php if ($lang == "en")
+                            echo "Subscribe to our newsletter to recieve news on your email.";
+                        else {
+                            echo "Γραφτείτε στο newsletter και λάβετε τα νέα μας στο email σας.";
+                        } ?></span>
                 </div>
                 <form action="" method="Post" class="newsletter_form clearfix">
                     <input class="nl_inp" type="text" placeholder="Email..." name="e-mail" />
@@ -101,12 +105,36 @@ $lang = $_GET["lang"];
 						<span class="input__label-content input__label-content-hoshi">Name</span>
 					</label>
 				</span> -->
-                    <button class="nl_btn">ΕΓΓΡΑΦΗ</button>
-                    <span class="message empty_error">Συμπληρώστε το email σας</span>
-                    <span class="message invalid_error">Συμπληρώστε ένα έγγυρο email</span>
-                    <span class="message duplicate_error">Έχετε ήδη γραφτεί στο newsletter</span>
-                    <span class="message newsletter_success">Γραφτήκατε επιτυχώς στο newsletter</span>
-                    <span class="message generic_error">Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.</span>
+                    <button class="nl_btn"><?php if ($lang == "en")
+                            echo "SUBSCRIBE";
+                        else {
+                            echo "ΕΓΓΡΑΦΗ";
+                        } ?></button>
+                    <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your email";
+                        else {
+                            echo "Συμπληρώστε το email σας";
+                        } ?></span>
+                    <span class="message invalid_error"><?php if ($lang == "en")
+                            echo "This email is invalid";
+                        else {
+                            echo "Συμπληρώστε ένα έγγυρο email";
+                        } ?></span>
+                    <span class="message duplicate_error"><?php if ($lang == "en")
+                            echo "You have already subscribed";
+                        else {
+                            echo "Έχετε ήδη γραφτεί στο newsletter";
+                        } ?></span>
+                    <span class="message newsletter_success"><?php if ($lang == "en")
+                            echo "You have subscribed successfully";
+                        else {
+                            echo "Γραφτήκατε επιτυχώς στο newsletter";
+                        } ?></span>
+                    <span class="message generic_error"><?php if ($lang == "en")
+                            echo "Some errorhas occured. Please try again later";
+                        else {
+                            echo "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.";
+                        } ?></span>
                 </form>
             </div>
         </div>

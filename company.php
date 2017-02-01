@@ -1,8 +1,14 @@
-<?php include 'header.php'; ?>
-    
+<?php include 'header.php';
+
+$lang = $_GET["lang"];
+?>
     <div class="center-wrapper">
         <div class="document-wrapper clearfix">
-            <h1>Η Εταιρία μας</h1>
+            <h1><?php if ($lang == "en")
+                            echo "Our Company";
+                        else {
+                            echo "Η Εταιρία μας";
+                        } ?></h1>
             <img src="/images/smallbanner4.jpg" alt="img01">
             <p>Η εταιρεία <strong>ΓΕΩΡΓΙΟΣ ΜΑΥΡΙΑΝΟΣ & ΣΙΑ ΕΕ</strong> , με διακριτικό τίτλο: <strong>GFR PARTS & SPARES</strong>, ιδρύθηκε το 2016 με κύριο αντικείμενο την εμπορία ανταλλακτικών αυτοκινήτου παντός τύπου, με χρήση της εγχώριας αγοράς και εισαγωγών.</p><p>
 Η εταιρεία μας στελεχώνεται από εξειδικευμένο προσωπικό και στεγάζεται στην Ελευσίνα, με συνεργαζόμενα καταστήματα στην Λυκόβρυση και στα Πατήσια Αττικής.</p><p>

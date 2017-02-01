@@ -1,18 +1,39 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+$lang = $_GET["lang"];?>
 
 
     <div class="center-wrapper">
         <div class="contact-page-wrapper clearfix">
             <div class="contact-info">
-                <span class="title">ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</span>
-                <span class="address">Διγενή Ακρίτα 45, 19200 Ελευσίνα</span>
-                <span class="phone">Τηλ.: 211 40 30 889</span>
-                <span class="mobile">Κιν.: 693 68 50 779</span>
+                <span class="title"><?php if ($lang == "en")
+                            echo "CONTACT INFORMATION";
+                        else {
+                            echo "ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ";
+                        } ?></span>
+                <span class="address"><?php if ($lang == "en")
+                            echo "45 Digeni Akrita, 19200 Elefsina";
+                        else {
+                            echo "Διγενή Ακρίτα 45, 19200 Ελευσίνα";
+                        } ?></span>
+                <span class="phone"><?php if ($lang == "en")
+                            echo "Phone";
+                        else {
+                            echo "Τηλ.";
+                        } ?>.: 211 40 30 889</span>
+                <span class="mobile"><?php if ($lang == "en")
+                            echo "Mobile";
+                        else {
+                            echo "Κιν.";
+                        } ?>: 693 68 50 779</span>
                 <a class="email" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
             </div>
 
             <div class="contact-form-wrapper">
-                <h2 class="title">ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</h2>
+                <h2 class="title"><?php if ($lang == "en")
+                            echo "CONTACT FORM";
+                        else {
+                            echo "ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ";
+                        } ?></h2>
                 <div class="form_description_wrapper">
                     <div class="loading"></div>
                     <span class="description">Συμπληρώστε το μήνυμά σας στα παρακάτω πεδία και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</span>
