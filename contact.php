@@ -36,27 +36,51 @@ $lang = $_GET["lang"];?>
                         } ?></h2>
                 <div class="form_description_wrapper">
                     <div class="loading"></div>
-                    <span class="description">Συμπληρώστε το μήνυμά σας στα παρακάτω πεδία και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.</span>
+                    <span class="description"><?php if ($lang == "en")
+                            echo "Fill in the fields below with your message, and we will contact you as soon as possible.";
+                        else {
+                            echo "Συμπληρώστε το μήνυμά σας στα παρακάτω πεδία και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.";
+                        } ?></span>
                     <div class="message_wrapper">
-                        <span class="message generic_error">Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.</span>
+                        <span class="message generic_error"><?php if ($lang == "en")
+                            echo "Some error has occured. Please try again later";
+                        else {
+                            echo "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.";
+                        } ?></span>
                     </div>
                     <form action="#" method="post" class="form clearfix">
                         <div class="row_wrapper input input-hoshi">
                             <div class="input_wrapper required">
                                 <input type="text" name="firstName" class="input first_name input__field input__field-hoshi" />
                                 <label class="label input__label input__label-hoshi input__label-hoshi-color-1">
-                                    <span class="input__label-content input__label-content-hoshi">Όνομα</span>
+                                    <span class="input__label-content input__label-content-hoshi"><?php if ($lang == "en")
+                            echo "Name";
+                        else {
+                            echo "Όνομα";
+                        } ?></span>
                                 </label>
-                                <span class="message empty_error">Συμπληρώστε το όνομά σας</span>
+                                <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your name";
+                        else {
+                            echo "Συμπληρώστε το όνομά σας";
+                        } ?></span>
                             </div>
                         </div>
                         <div class="row_wrapper2 input input-hoshi">
                             <div class="input_wrapper required">
                                 <input type="text" name="lastName" class="input last_name input__field input__field-hoshi" />
                                 <label class="label input__label input__label-hoshi input__label-hoshi-color-1">
-                                    <span class="input__label-content input__label-content-hoshi">Επώνυμο</span>
+                                    <span class="input__label-content input__label-content-hoshi"><?php if ($lang == "en")
+                            echo "Last Name";
+                        else {
+                            echo "Επώνυμο";
+                        } ?></span>
                                 </label>
-                                <span class="message empty_error">Συμπληρώστε το επώνυμό σας</span>
+                                <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your last name";
+                        else {
+                            echo "Συμπληρώστε το επώνυμό σας";
+                        } ?></span>
                             </div>
                         </div>
                         <div class="row_wrapper input input-hoshi">
