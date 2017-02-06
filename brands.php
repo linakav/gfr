@@ -1,21 +1,37 @@
-<?php include 'header.php'; ?>
-
+<?php
+include 'header.php';
+$lang = $_GET["lang"];
+?>
 
 <div class="brand-page-wrapper clearfix">
-	<h1 class="title">Οι Μάρκες μας</h1>
+	<h1 class="title"><?php if ($lang == "en")
+                            echo "Our Brands";
+                        else {
+                            echo "Οι Μάρκες μας";
+                        } ?></h1>
 
 	<ul class="grid clearfix">
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/takakia-diskoplakes.jpg" alt="ΤΑΚΑΚΙΑ – ΔΙΣΚΟΠΛΑΚΕΣ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/takakia-diskoplakes.jpg" alt="<?php if ($lang == "en")
+                                                    echo "BRAKE PADS AND DISKS";
+                                                else {
+                                                    echo "ΤΑΚΑΚΙΑ – ΔΙΣΚΟΠΛΑΚΕΣ";
+                                                } ?>" />
 					<figcaption>
-						<div class="clearfix">
-							<h2>ΤΑΚΑΚΙΑ – ΔΙΣΚΟΠΛΑΚΕΣ</h2>
-						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <div class="clearfix">
+                                                <h2><?php if ($lang == "en")
+                                                    echo "BRAKE PADS AND DISKS";
+                                                else {
+                                                    echo "ΤΑΚΑΚΙΑ – ΔΙΣΚΟΠΛΑΚΕΣ";
+                                                } ?></h2>
+                                            </div>
+                                            <p><?php if ($lang == "en")
+                            echo "View our brands";
+                        else {
+                            echo "Δείτε τις μάρκες μας";
+                        } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -48,20 +64,34 @@
 				<li class="brand">
 					<img src="/images/brands/matec.jpg" alt="MATEC" />
 					<span class="brand-title">MATEC</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/siblektes.jpg" alt="ΣΥΜΠΛΕΚΤΕΣ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/siblektes.jpg" alt="<?php if ($lang == "en")
+                            echo "CLUTCHES";
+                        else {
+                            echo "ΣΥΜΠΛΕΚΤΕΣ";
+                        } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΣΥΜΠΛΕΚΤΕΣ</h2>
+							<h2><?php if ($lang == "en")
+                            echo "CLUTCHES";
+                        else {
+                            echo "ΣΥΜΠΛΕΚΤΕΣ";
+                        } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -90,20 +120,34 @@
 				<li class="brand">
 					<img src="/images/brands/exedy.png" alt="EXEDY" />
 					<span class="brand-title">EXEDY</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/amortiser.jpg" alt="ΑΜΟΡΤΙΣΕΡ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/amortiser.jpg" alt="<?php if ($lang == "en")
+                                                    echo "SHOCK ABSORBERS";
+                                                else {
+                                                    echo "ΑΜΟΡΤΙΣΕΡ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΑΜΟΡΤΙΣΕΡ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "SHOCK ABSORBERS";
+                                                else {
+                                                    echo "ΑΜΟΡΤΙΣΕΡ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -124,20 +168,34 @@
 				<li class="brand">
 					<img src="/images/brands/bilstein.jpg" alt="BILSTEIN" />
 					<span class="brand-title">BILSTEIN</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/empros-sistima.jpg" alt="ΜΠΡΟΣΤΙΝΟ ΣΥΣΤΗΜΑ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/empros-sistima.jpg" alt="<?php if ($lang == "en")
+                                                    echo "FRONT SYSTEM";
+                                                else {
+                                                    echo "ΜΠΡΟΣΤΙΝΟ ΣΥΣΤΗΜΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΜΠΡΟΣΤΙΝΟ ΣΥΣΤΗΜΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "FRONT SYSTEM";
+                                                else {
+                                                    echo "ΜΠΡΟΣΤΙΝΟ ΣΥΣΤΗΜΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -166,7 +224,11 @@
 				<li class="brand">
 					<img src="/images/brands/febi.jpg" alt="FEBI" />
 					<span class="brand-title">FEBI</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
         </ul>
@@ -175,14 +237,24 @@
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/bilioforoi.jpg" alt="ΜΠΙΛΙΟΦΟΡΟΙ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/bilioforoi.jpg" alt="<?php if ($lang == "en")
+                                                    echo "CV-JOINTS";
+                                                else {
+                                                    echo "ΜΠΙΛΙΟΦΟΡΟΙ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΜΠΙΛΙΟΦΟΡΟΙ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "CV-JOINTS";
+                                                else {
+                                                    echo "ΜΠΙΛΙΟΦΟΡΟΙ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -195,20 +267,34 @@
 				<li class="brand">
 					<img src="/images/brands/gsp.png" alt="GSP" />
 					<span class="brand-title">GSP</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/lipantika.jpg" alt="ΛΙΠΑΝΤΙΚΑ – ΧΗΜΙΚΑ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/lipantika.jpg" alt="<?php if ($lang == "en")
+                                                    echo "LUBRICANTS - CHEMICALS";
+                                                else {
+                                                    echo "ΛΙΠΑΝΤΙΚΑ – ΧΗΜΙΚΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΛΙΠΑΝΤΙΚΑ – ΧΗΜΙΚΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "LUBRICANTS - CHEMICALS";
+                                                else {
+                                                    echo "ΛΙΠΑΝΤΙΚΑ – ΧΗΜΙΚΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -229,20 +315,34 @@
 				<li class="brand">
 					<img src="/images/brands/wistrol.png" alt="WISTROL" />
 					<span class="brand-title">WISTROL</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/filtra.jpg" alt="ΦΙΛΤΡΑ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/filtra.jpg" alt="<?php if ($lang == "en")
+                                                    echo "FILTERS";
+                                                else {
+                                                    echo "ΦΙΛΤΡΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΦΙΛΤΡΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "FILTERS";
+                                                else {
+                                                    echo "ΦΙΛΤΡΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+                                            <p><?php if ($lang == "en")
+                                                echo "View our brands";
+                                            else {
+                                                echo "Δείτε τις μάρκες μας";
+                                            } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -275,20 +375,34 @@
 				<li class="brand">
 					<img src="/images/brands/muller.jpg" alt="MULLER" />
 					<span class="brand-title">MULLER</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/ilektrologika.jpg" alt="ΗΛΕΚΤΡΟΛΟΓΙΚΑ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/ilektrologika.jpg" alt="<?php if ($lang == "en")
+                                                    echo "ELECTRONICS";
+                                                else {
+                                                    echo "ΗΛΕΚΤΡΟΛΟΓΙΚΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΗΛΕΚΤΡΟΛΟΓΙΚΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "ELECTRONICS";
+                                                else {
+                                                    echo "ΗΛΕΚΤΡΟΛΟΓΙΚΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -325,7 +439,11 @@
 				<li class="brand">
 					<img src="/images/brands/magnetimarelli.png" alt="MAGNETI MARELLI" />
 					<span class="brand-title">MAGNETI MARELLI</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
         </ul>
@@ -334,14 +452,24 @@
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/mpataries.jpg" alt="ΜΠΑΤΑΡΙΕΣ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/mpataries.jpg" alt="<?php if ($lang == "en")
+                                                    echo "BATERIES";
+                                                else {
+                                                    echo "ΜΠΑΤΑΡΙΕΣ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΜΠΑΤΑΡΙΕΣ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "BATERIES";
+                                                else {
+                                                    echo "ΜΠΑΤΑΡΙΕΣ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -354,20 +482,34 @@
 				<li class="brand">
 					<img src="/images/brands/bosch.png" alt="BOSCH" />
 					<span class="brand-title">BOSCH</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/ialokatharistires.jpg" alt="ΥΑΛΟΚΑΘΑΡΙΣΤΗΡΕΣ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/ialokatharistires.jpg" alt="<?php if ($lang == "en")
+                                                    echo "WINDSHIELD WIPERS";
+                                                else {
+                                                    echo "ΥΑΛΟΚΑΘΑΡΙΣΤΗΡΕΣ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΥΑΛΟΚΑΘΑΡΙΣΤΗΡΕΣ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "WINDSHIELD WIPERS";
+                                                else {
+                                                    echo "ΥΑΛΟΚΑΘΑΡΙΣΤΗΡΕΣ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -388,20 +530,34 @@
 				<li class="brand">
 					<img src="/images/brands/valeo.png" alt="VALEO" />
 					<span class="brand-title">VALEO</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/imandes.jpg" alt="ΙΜΑΝΤΕΣ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/imandes.jpg" alt="<?php if ($lang == "en")
+                                                    echo "BELTS";
+                                                else {
+                                                    echo "ΙΜΑΝΤΕΣ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΙΜΑΝΤΕΣ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "BELTS";
+                                                else {
+                                                    echo "ΙΜΑΝΤΕΣ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -418,20 +574,34 @@
 				<li class="brand">
 					<img src="/images/brands/dayco.png" alt="DAYCO" />
 					<span class="brand-title">DAYCO</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/rouleman.jpg" alt="ΡΟΥΛΕΜΑΝ ΑΥΤΟΚΙΝΗΤΟΥ" />
+					<img src="/images/rouleman.jpg" alt="<?php if ($lang == "en")
+                                                    echo "wHEEL BEARINGS";
+                                                else {
+                                                    echo "ΡΟΥΛΕΜΑΝ ΑΥΤΟΚΙΝΗΤΟΥ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΡΟΥΛΕΜΑΝ ΑΥΤΟΚΙΝΗΤΟΥ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "wHEEL BEARINGS";
+                                                else {
+                                                    echo "ΡΟΥΛΕΜΑΝ ΑΥΤΟΚΙΝΗΤΟΥ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -460,7 +630,11 @@
 				<li class="brand">
 					<img src="/images/brands/skf.png" alt="SKF" />
 					<span class="brand-title">SKF</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
         </ul>
@@ -469,14 +643,24 @@
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/tsimouxes.jpg" alt="ΤΣΙΜΟΥΧΕΣ – ΣΤΕΓΑΝΟΠΟΙΗΤΙΚΑ" />
+					<img src="/images/tsimouxes.jpg" alt="<?php if ($lang == "en")
+                                                    echo "SEALS";
+                                                else {
+                                                    echo "ΤΣΙΜΟΥΧΕΣ – ΣΤΕΓΑΝΟΠΟΙΗΤΙΚΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΤΣΙΜΟΥΧΕΣ – ΣΤΕΓΑΝΟΠΟΙΗΤΙΚΑ</h2>
+                                                    <h2><?php if ($lang == "en")
+                                                    echo "SEALS";
+                                                else {
+                                                    echo "ΤΣΙΜΟΥΧΕΣ – ΣΤΕΓΑΝΟΠΟΙΗΤΙΚΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -493,20 +677,34 @@
 				<li class="brand">
 					<img src="/images/brands/victor-reinz.png" alt="VICTOR-REINZ" />
 					<span class="brand-title">VICTOR-REINZ</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/antlies-nerou.jpg" alt="ΑΝΤΛΙΕΣ ΝΕΡΟΥ" />
+					<img src="/images/antlies-nerou.jpg" alt="<?php if ($lang == "en")
+                                                    echo "WATER PUMPS";
+                                                else {
+                                                    echo "ΑΝΤΛΙΕΣ ΝΕΡΟΥ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΑΝΤΛΙΕΣ ΝΕΡΟΥ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "WATER PUMPS";
+                                                else {
+                                                    echo "ΑΝΤΛΙΕΣ ΝΕΡΟΥ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -535,20 +733,34 @@
 				<li class="brand">
 					<img src="/images/brands/japanparts.png" alt="JAPANPARTS" />
 					<span class="brand-title">JAPANPARTS</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/antlies-benzinis.jpg" alt="ΑΝΤΛΙΕΣ ΒΕΝΖΙΝΗΣ" />
+					<img src="/images/antlies-benzinis.jpg" alt="<?php if ($lang == "en")
+                                                    echo "FUEL PUMPS";
+                                                else {
+                                                    echo "ΑΝΤΛΙΕΣ ΒΕΝΖΙΝΗΣ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΑΝΤΛΙΕΣ ΒΕΝΖΙΝΗΣ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "FUEL PUMPS";
+                                                else {
+                                                    echo "ΑΝΤΛΙΕΣ ΒΕΝΖΙΝΗΣ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -577,20 +789,34 @@
 				<li class="brand">
 					<img src="/images/brands/pierburg.png" alt="PIERBURG" />
 					<span class="brand-title">PIERBURG</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/psigeia.jpg" alt="ΨΥΓΕΙΑ" />
+					<img src="/images/psigeia.jpg" alt="<?php if ($lang == "en")
+                                                    echo "COOLERS";
+                                                else {
+                                                    echo "ΨΥΓΕΙΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΨΥΓΕΙΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "COOLERS";
+                                                else {
+                                                    echo "ΨΥΓΕΙΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -611,7 +837,11 @@
 				<li class="brand">
 					<img src="/images/brands/valeo.png" alt="VALEO" />
 					<span class="brand-title">VALEO</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
         </ul>
@@ -620,14 +850,24 @@
 		<li class="accordion-item">
 			<div class="image-wrapper">
 				<figure class="effect-sarah">
-					<img src="/images/vaseis-kinitira.jpg" alt="ΒΑΣΕΙΣ ΚΙΝΗΤΗΡΑ" />
+					<img src="/images/vaseis-kinitira.jpg" alt="<?php if ($lang == "en")
+                                                    echo "MOTOR BASES";
+                                                else {
+                                                    echo "ΒΑΣΕΙΣ ΚΙΝΗΤΗΡΑ";
+                                                } ?>" />
 					<figcaption>
 						<div class="clearfix">
-							<h2>ΒΑΣΕΙΣ ΚΙΝΗΤΗΡΑ</h2>
+							<h2><?php if ($lang == "en")
+                                                    echo "MOTOR BASES";
+                                                else {
+                                                    echo "ΒΑΣΕΙΣ ΚΙΝΗΤΗΡΑ";
+                                                } ?></h2>
 						</div>
-						<p>
-							Δείτε τις μάρκες μας
-						</p>
+						<p><?php if ($lang == "en")
+                                                    echo "View our brands";
+                                                else {
+                                                    echo "Δείτε τις μάρκες μας";
+                                                } ?></p>
 						<a href="javascript:void(0)">View more</a>
 					</figcaption>
 				</figure>
@@ -644,7 +884,11 @@
 				<li class="brand">
 					<img src="/images/brands/gsp.png" alt="GSP" />
 					<span class="brand-title">GSP</span>
-				</li><li class="close">Κλείσιμο</li>
+				</li><li class="close"><?php if ($lang == "en")
+                                                    echo "Close";
+                                                else {
+                                                    echo "Κλείσιμο";
+                                                } ?></li>
 			</ul>
 		</li>
 	</ul>

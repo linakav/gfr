@@ -131,7 +131,7 @@ $lang = $_GET["lang"];
                             echo "Γραφτήκατε επιτυχώς στο newsletter";
                         } ?></span>
                     <span class="message generic_error"><?php if ($lang == "en")
-                            echo "Some errorhas occured. Please try again later";
+                            echo "Some error has occured. Please try again later";
                         else {
                             echo "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.";
                         } ?></span>
@@ -199,7 +199,7 @@ $lang = $_GET["lang"];
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="/owl-carousel/owl.carousel.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyA4EX1ua5aAy4IrUeGT1TJKuEfw82sp2wM"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyA4EX1ua5aAy4IrUeGT1TJKuEfw82sp2wM&language=<?php echo $lang ?>"></script>
     <script src="/scripts/crawler.js" type="text/javascript"></script>
     <script src="/scripts/script.js?v=48" type="text/javascript"></script>
 </body>

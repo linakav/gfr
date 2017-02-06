@@ -1,6 +1,7 @@
-<?php include 'header.php'; 
-$lang = $_GET["lang"];?>
-
+<?php
+include 'header.php'; 
+$lang = $_GET["lang"];
+?>
 
     <div class="center-wrapper">
         <div class="contact-page-wrapper clearfix">
@@ -89,42 +90,82 @@ $lang = $_GET["lang"];?>
                                 <label class="label input__label input__label-hoshi input__label-hoshi-color-1">
                                     <span class="input__label-content input__label-content-hoshi">Email</span>
                                 </label>
-                                <span class="message empty_error">Συμπληρώστε το email σας</span>
-                                <span class="message invalid_error">Συμπληρώστε ένα έγγυρο email</span>
+                                <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your email";
+                        else {
+                            echo "Συμπληρώστε το email σας";
+                        } ?></span>
+                                <span class="message invalid_error"><?php if ($lang == "en")
+                            echo "Fill in a valid email";
+                        else {
+                            echo "Συμπληρώστε ένα έγγυρο email";
+                        } ?></span>
                             </div>
                         </div>
                         <div class="row_wrapper2 input input-hoshi">
                             <div class="input_wrapper required phone_wrapper">
                                 <input type="text" name="phone" class="input phone input__field input__field-hoshi" />
                                 <label class="label input__label input__label-hoshi input__label-hoshi-color-1">
-                                    <span class="input__label-content input__label-content-hoshi">Τηλέφωνο</span>
+                                    <span class="input__label-content input__label-content-hoshi"><?php if ($lang == "en")
+                            echo "Phone";
+                        else {
+                            echo "Τηλέφωνο";
+                        } ?></span>
                                 </label>
-                                <span class="message empty_error">Συμπληρώστε το τηλέφωνό σας</span>
+                                <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your phone number";
+                        else {
+                            echo "Συμπληρώστε το τηλέφωνό σας";
+                        } ?></span>
                             </div>
                         </div>
                         <div class="row_wrapper input input-hoshi text-area">
                             <div class="input_wrapper required message_wrapper">
                                 <textarea name="message" class="input message-area input__field input__field-hoshi"></textarea>
                                 <label class="label input__label input__label-hoshi input__label-hoshi-color-1">
-                                    <span class="input__label-content input__label-content-hoshi">Μήνυμα</span>
+                                    <span class="input__label-content input__label-content-hoshi"><?php if ($lang == "en")
+                            echo "Message";
+                        else {
+                            echo "Μήνυμα";
+                        } ?></span>
                                 </label>
-                                <span class="message empty_error">Συμπληρώστε το μήνυμά σας</span>
+                                <span class="message empty_error"><?php if ($lang == "en")
+                            echo "Fill in your message";
+                        else {
+                            echo "Συμπληρώστε το μήνυμά σας";
+                        } ?></span>
                             </div>
                         </div>
                         <div class="row_wrapper2 lastrow_wrapper">
-                            <span class="footnote"><em>* Όλα τα πεδία είναι υποχρεωτικά.</em></span>
-                            <button class="submit_btn">ΑΠΟΣΤΟΛΗ</button>
+                            <span class="footnote"><em><?php if ($lang == "en")
+                            echo "* All fields are required.";
+                        else {
+                            echo "* Όλα τα πεδία είναι υποχρεωτικά.";
+                        } ?></em></span>
+                            <button class="submit_btn"><?php if ($lang == "en")
+                            echo "SEND";
+                        else {
+                            echo "ΑΠΟΣΤΟΛΗ";
+                        } ?></button>
                         </div>
                     </form>
                 </div>
                 <div class="success_wrapper" style="display: none;">
                     <span class="icon-tick-outline"></span>
-                    <span class="success_message">Το μήνυμά σας στάλθηκε με επιτυχία.</span>
+                    <span class="success_message"><?php if ($lang == "en")
+                            echo "Your message has been sent successfully";
+                        else {
+                            echo "Το μήνυμά σας στάλθηκε με επιτυχία.";
+                        } ?></span>
                 </div>
             </div>
 
             <div class="map-wrapper">
-                <span class="title">ΧΑΡΤΗΣ</span>
+                <span class="title"><?php if ($lang == "en")
+                            echo "MAP";
+                        else {
+                            echo "ΧΑΡΤΗΣ";
+                        } ?></span>
                 <div id="map2" style="width: 100%; height: 500px"></div>
             </div>
         </div>
