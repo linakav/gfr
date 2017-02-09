@@ -82,7 +82,7 @@ $lang = $_GET["lang"];
                         else {
                             echo "Κιν.";
                         } ?>: 693 68 50 779</span>
-                    <a class="email" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
+                    <a class="email" href="mailto:info@gfr.gr">info@gfr.gr</a>
                 </div>
                 <div class="map-wrapper">
                     <div id="map" style="width: 100%; height: 150px"></div>
@@ -151,7 +151,7 @@ $lang = $_GET["lang"];
                 <div class="info-wrapper">
                     <div class="email-wrapper">
                         <span class="icon icon-envelope-o"></span>
-                        <a class="email label" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
+                        <a class="email label" href="mailto:info@gfr.gr">info@gfr.gr</a>
                     </div>
                     <div class="mobile-wrapper">
                         <span class="icon icon-mobile2"></span>

@@ -26,7 +26,7 @@ $lang = $_GET["lang"];
                         else {
                             echo "Κιν.";
                         } ?>: 693 68 50 779</span>
-                <a class="email" href="mailto:gfr.parts@gmail.com">gfr.parts@gmail.com</a>
+                <a class="email" href="mailto:info@gfr.gr">info@gfr.gr</a>
             </div>
 
             <div class="contact-form-wrapper">
