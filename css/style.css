@@ -23,34 +23,38 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-rewind:before {
-    content: "\e051";
+  content: "\e051";
 }
 .icon-fast-forward:before {
-    content: "\e055";
+  content: "\e055";
 }
 .icon-cross2:before {
-    content: "\e117";
+  content: "\e117";
 }
-.icon-envelope-o:before {
-    content: "\f003";
-    font-size: 30px;
-}
-.icon-forward:before {
-    content: "\e902";
-}
-.icon-home3:before {
-    content: "\e903";
-}
-.icon-phone:before {
-    content: "\e942";
-}
-.icon-mobile2:before {
-    content: "\e959";
+.icon-done:before {
+  content: "\e876";
 }
 .icon-tick-outline:before {
-    content: "\e900";
+  content: "\e900";
+}
+.icon-forward:before {
+  content: "\e902";
+}
+.icon-home3:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-location:before {
+  content: "\e947";
 }
 
 body {
@@ -746,6 +750,7 @@ footer {
 
 .newsletter-text-wrapper .icon-envelope-o {
     float: left;
+    font-size: 30px;
 }
 
 .nl_inp {
@@ -885,7 +890,6 @@ footer {
 .contact-wrapper .title:hover {
     color: #BCBEC0;
     border-color:  #BCBEC0;
-
 }
 
 .info-wrapper, .map-wrapper {
@@ -936,6 +940,17 @@ footer {
 
 .contact-page-wrapper .contact-info span {
     font-weight: bold;
+    display: inline-block;
+}
+
+.contact-page-wrapper .contact-info img {
+    display: block;
+    height: 25px;
+}
+
+.contact-page-wrapper .contact-info .social-link {
+    margin: 10px 0px;
+    display: inline-block;
 }
 
 .contact-page-wrapper .title {
@@ -1330,4 +1345,18 @@ footer {
 .brand-page-wrapper .brands-wrapper .brand .brand-title {
     display: block;
 
+}
+
+footer .social-wrapper {
+    padding-top: 30px;
+}
+
+footer .social-wrapper .social-title {
+    display : block;
+    font-size: 18px;
+}
+
+footer .social-wrapper .social-link {
+    display : inline-block;
+    padding: 5px;
 }

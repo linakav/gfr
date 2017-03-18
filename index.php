@@ -1,5 +1,10 @@
 <?php include 'header.php'; 
-$lang = $_GET["lang"];?>
+if (isset($_GET["lang"])){
+$lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}?>
 
 <div class="main-slider owl-carousel">
     <div class="slide-item" style="background: url(/images/banner1.jpg)"></div>
@@ -101,6 +106,8 @@ $lang = $_GET["lang"];?>
                 <img src="/images/brands/kayaba.png" alt="KAYABA" /></li>
             <li class="brand-slider-item">
                 <img src="/images/brands/koyo.png" alt="KOYO" /></li>
+            <li class="brand-slider-item">
+                <img src="/images/brands/LIQUI-MOLY.png" alt="LIQUI-MOLY" /></li>
             <li class="brand-slider-item">
                 <img src="/images/brands/lobro.png" alt="LOBRO" /></li>
             <li class="brand-slider-item">

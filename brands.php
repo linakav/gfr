@@ -1,6 +1,11 @@
 <?php
 include 'header.php';
+if (isset($_GET["lang"])){
 $lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}
 ?>
 
 <div class="brand-page-wrapper clearfix">
@@ -315,7 +320,12 @@ $lang = $_GET["lang"];
 				<li class="brand">
 					<img src="/images/brands/wistrol.png" alt="WISTROL" />
 					<span class="brand-title">WISTROL</span>
-				</li><li class="close"><?php if ($lang == "en")
+				</li>
+                                <li class="brand">
+					<img src="/images/brands/LIQUI-MOLY.png" alt="LIQUI-MOLY" />
+					<span class="brand-title">LIQUI-MOLY</span>
+				</li>
+                                <li class="close"><?php if ($lang == "en")
                                                     echo "Close";
                                                 else {
                                                     echo "Κλείσιμο";

@@ -1,6 +1,11 @@
 <?php
 include 'header.php'; 
+if (isset($_GET["lang"])){
 $lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}
 ?>
 
     <div class="center-wrapper">
@@ -11,22 +16,37 @@ $lang = $_GET["lang"];
                         else {
                             echo "ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ";
                         } ?></span>
+                <div>
+                <span class="icon icon-location"></span>
                 <span class="address"><?php if ($lang == "en")
                             echo "45 Digeni Akrita, 19200 Elefsina";
                         else {
                             echo "Διγενή Ακρίτα 45, 19200 Ελευσίνα";
-                        } ?></span>
-                <span class="phone"><?php if ($lang == "en")
-                            echo "Phone";
-                        else {
-                            echo "Τηλ.";
-                        } ?>.: 211 40 30 889</span>
-                <span class="mobile"><?php if ($lang == "en")
-                            echo "Mobile";
-                        else {
-                            echo "Κιν.";
-                        } ?>: 693 68 50 779</span>
-                <a class="email" href="mailto:info@gfr.gr">info@gfr.gr</a>
+                            } ?></span>
+                </div>
+                <div>
+                    <span class="icon icon-phone"></span>
+                    <span class="phone"><?php if ($lang == "en")
+                                echo "Phone";
+                            else {
+                                echo "Τηλ.";
+                            } ?>.: 211 40 30 889</span>
+                </div>
+                <div>
+                    <span class="icon icon-mobile2"></span>
+                    <span class="mobile"><?php if ($lang == "en")
+                                echo "Mobile";
+                            else {
+                                echo "Κιν.";
+                            } ?>: 693 68 50 779</span>
+                </div>
+                <div>
+                    <span class="icon icon-envelope-o"></span>
+                    <a class="email" href="mailto:info@gfr.gr">info@gfr.gr</a>
+                </div>
+                <div>
+                    <a class="social-link" target="_blank" href="https://www.facebook.com/GFR-PARTS-SPARES-1406710442728371/"><img src="/images/facebook.ico" /></a>
+                </div>
             </div>
 
             <div class="contact-form-wrapper">

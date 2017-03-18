@@ -5,7 +5,12 @@ if(!isset($_COOKIE['authenticated'])) {
     die();
 }
 
+if (isset($_GET["lang"])){
 $lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}
 ?>
 <!DOCTYPE html>
 <html>

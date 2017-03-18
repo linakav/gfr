@@ -1,6 +1,10 @@
 <?php
-
+if (isset($_GET["lang"])){
 $lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}
 ?>
     <footer>
         <div class="center-wrapper clearfix">
@@ -136,6 +140,13 @@ $lang = $_GET["lang"];
                             echo "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα.";
                         } ?></span>
                 </form>
+                <div class="social-wrapper">
+                    <span class="social-title"><?php if ($lang == "en")
+                            echo "Follow Us";
+                        else {
+                            echo "Ακολουθήστε μας";
+                        } ?></span>
+                    <a class="social-link" target="_blank" href="https://www.facebook.com/GFR-PARTS-SPARES-1406710442728371/"><img class="social-img" src="/images/facebook.ico"/></a></div>
             </div>
         </div>
     </footer>

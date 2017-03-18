@@ -1,6 +1,11 @@
 <?php
 include 'header.php';
+if (isset($_GET["lang"])){
 $lang = $_GET["lang"];
+}
+else {
+    $lang = "el";
+}
 ?>
 
     <div class="center-wrapper">
@@ -10,7 +15,7 @@ $lang = $_GET["lang"];
                 else {
                     echo "Η Εταιρία μας";
                 } ?></h1>
-            <img src="/images/smallbanner4.jpg" alt="img01">
+            <img src="/images/IMG_20170215_114100.jpg" alt="img01">
             
             <?php if ($lang == "en")
                     echo "<p>The company <strong>GEORGE MAVRIANOS CO LP</strong>, with the distinctive title <strong>GFR PARTS & SPARES</strong>, was founded in 2016 and deals in car parts of all types, both domestic and imported.</p>"
