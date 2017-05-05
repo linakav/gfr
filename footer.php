@@ -12,7 +12,7 @@ else {
                 <ul class="footer-menu">
                     <li runat="server" class="footer-menu-item">
                             <span class="icon icon-forward"></span>
-                            <a href="/index.php<?php if ($lang == "en")
+                            <a href="/<?php if ($lang == "en")
                             echo "?lang=en";
                         else {
                             echo "?lang=el";

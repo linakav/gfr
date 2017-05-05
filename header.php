@@ -80,7 +80,7 @@ else {
             <div class="center-wrapper">
                 <div class="header-wrapper ">
                     <div class="logo-wrapper">
-                        <a href="/index.php<?php if ($lang == "en")
+                        <a href="/<?php if ($lang == "en")
                             echo "?lang=en";
                         else {
                             echo "?lang=el";
@@ -91,7 +91,7 @@ else {
                     <nav class="main-menu-wrapper">
                         <ul class="main-menu">
                             <li  class="main-menu-item">
-                                <a href="/index.php<?php if ($lang == "en")
+                                <a href="/<?php if ($lang == "en")
                             echo "?lang=en";
                         else {
                             echo "?lang=el";
