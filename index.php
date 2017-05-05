@@ -7,7 +7,7 @@ else {
 }?>
 
 <div class="main-slider owl-carousel">
-    <div class="slide-item" style="background: url(/images/banner1.jpg)"></div>
+    <!--<div class="slide-item" style="background: url(/images/banner1.jpg)"></div>-->
     <div class="slide-item" style="background: url(/images/banner2.jpg)"></div>
 </div>
 

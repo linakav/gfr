@@ -1,9 +1,9 @@
 <?php
 
-if(!isset($_COOKIE['authenticated'])) {
-    header("Location: /login.php");
-    die();
-}
+//if(!isset($_COOKIE['authenticated'])) {
+//    header("Location: /login.php");
+//    die();
+//}
 
 if (isset($_GET["lang"])){
 $lang = $_GET["lang"];

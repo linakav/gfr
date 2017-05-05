@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://www.gfr.gr/Sitemap_el.xml</loc>
+		<lastmod>2017-05-04</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://www.gfr.gr/Sitemap_en.xml</loc>
+		<lastmod>2017-05-04</lastmod>
+	</sitemap>
+</sitemapindex>
