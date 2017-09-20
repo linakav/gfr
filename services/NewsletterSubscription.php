@@ -1,23 +1,37 @@
 <?php
-
 function AddSubscriber($email) {
-    $myfile = fopen('newsletter.txt', "a") or die("Unable to open file!");
-    $txt = $email;
-    fwrite($myfile, $txt . "\n");
-    fclose($myfile);
+    
+    $servername = "localhost";
+    $username = "gf310572_user";
+    $password = "K5C\^M*f*k'Rgs^}";
+    $databasename = "gf310572_gfr";
+    $query = "INSERT INTO Newsletters (Id, Email, CreatedOn) VALUES ('2', '".$email."', GETDATE())";
+    
+    $conn = mysqli_connect($servername, $username, $password, $databasename);
+    mysqli_query($query) or die(mysqli_error($db));
+    
+    mysqli_close($conn);
+
+    
+    //$myfile = fopen('newsletter.txt', "a") or die("Unable to open file!");
+    //$txt = $email;
+    //fwrite($myfile, $txt . "\n");
+    //fclose($myfile);
 }
 function IsDuplicates($email) {
+    $valid = false;
+    $servername = "localhost";
+    $username = "gf310572_user";
+    $password = "K5C\^M*f*k'Rgs^}";
+    $databasename = "gf310572_gfr";
+    $query = "SELECT Email FROM Newsletters WHERE Email = '".$email."'";
     
-    $handle = fopen('newsletter.txt', 'r');
-    $valid = false; // init as false
-    while (($buffer = fgets($handle)) !== false) {
-        if (strpos($buffer, $email) !== false) {
-            $valid = TRUE;
-            break; // Once you find the string, you should break out the loop.
-        }      
-    }
-    fclose($handle);
+    $conn = mysqli_connect($servername, $username, $password, $databasename);
+    $result = $conn->query($query);
     
+    mysqli_close($conn);
+    if ($result->num_rows > 0) { return true; }
+
     return $valid;
 }
 
